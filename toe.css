@@ -1,0 +1,35 @@
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1a1a;
+}
+
+.main{
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn{
+    height: 70px;
+    width: 70px;
+    background-color: #1088d7;
+    border: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
